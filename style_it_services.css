@@ -1,0 +1,118 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  .theme-color{
+      color:#ea7e6e;
+  }
+
+.back-it-service-color{
+    background: linear-gradient(to right, rgba(214, 119, 104, 0.1),rgb(214, 146, 135));
+    background-size: 100% 100%;
+}
+
+.bgimg-1{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    scroll-behavior: smooth;
+    height: 60%;
+  }
+  .bgimg-1 {
+    background-image: url("Images/bgimg-it-services-1.jpg");
+  }
+  
+  
+  .back-bg-color{
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+  }
+
+.back-bg-color-service{
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-link-btn-company-bottom-nav{
+    color: #000;
+    transform: color;
+    transition-duration: 500ms;
+  }
+  .nav-link-btn-company-bottom-nav:hover{
+    color: #ea7b6a;
+    transform: color;
+    transition-duration: 500ms;
+  }
+  
+@keyframes reveal {
+    80%{
+        letter-spacing: 8px;
+    }
+    100% {
+        background-size: 300% 300%;
+    }
+}
+
+@keyframes glow {
+    40% {
+        text-shadow: 0 0 5px #ea7e6e;
+    }
+    
+    80% {
+        text-shadow: 0 0 10px #ea7e6e;
+    }
+    100% {
+        text-shadow: 0 0 5px #ea7e6e;
+    }
+}
+
+.it-service-text {
+    background-color: transparent;
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 8vw;
+    font-family: sans-serif;
+    animation: reveal 3000ms ease-in-out forwards,
+                glow 2500ms linear infinite;
+
+}  
+ 
+  
+/**************** for text box *******************/
+  .border-box-anim{
+    border-width: 2px;
+    transform: translate(0px, 0px);
+    transition-duration: 200ms;
+    background-color: rgb(225, 225, 225, 0.2);
+  }
+@media only screen and (min-width: 800px) {
+   .border-box-anim:hover{
+       box-shadow: 10px 10px 16px #923527;
+       transform: translate(-5px, -5px);
+       transition-duration: 200ms;
+   }
+}
+
+strong{
+    color: #ea7e6e;
+}
+

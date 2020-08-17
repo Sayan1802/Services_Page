@@ -9,7 +9,7 @@ body, html {
   }
 
 .back-it-service-color{
-    background: linear-gradient(to right, rgba(214, 119, 104, 0.1),rgb(214, 146, 135));
+    background: #e6e6d8;
     background-size: 100% 100%;
 }
 
@@ -102,11 +102,11 @@ body, html {
     border-width: 2px;
     transform: translate(0px, 0px);
     transition-duration: 200ms;
-    background-color: rgb(225, 225, 225, 0.2);
+    background-color: white;
   }
 @media only screen and (min-width: 800px) {
    .border-box-anim:hover{
-       box-shadow: 10px 10px 16px #923527;
+       box-shadow: 10px 10px 16px rgb(58,53,53);
        transform: translate(-5px, -5px);
        transition-duration: 200ms;
    }

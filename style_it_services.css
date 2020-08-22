@@ -102,4 +102,15 @@ body, html {
    }
 }
 
+.collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+.collapse .navbar-nav .nav-item.active .nav-link,
+.collapse .navbar-nav .nav-item:hover .nav-link {
+  color: white;
+}
 
+.bg-none .navbar-collapse{
+  background-color: #ea7e6e;
+  z-index: 9;
+}

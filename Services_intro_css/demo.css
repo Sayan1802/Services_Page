@@ -78,3 +78,11 @@ div {
   }
 
 }
+
+.navbar-nav .nav-item .nav-link {
+  color: black;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #ea7e6e;
+}
